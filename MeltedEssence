@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+border-bottom: 2px solid #A7B49E;
+display: inline-block;
+padding-bottom: 0.3rem;
+}
+.button {
+display: inline-block;
+background-color: #B79E8B;
+color: #FAF9F7;
+padding: 0.7rem 1.5rem;
+border-radius: 5px;
+text-decoration: none;
+margin-top: 1rem;
+}
+.button:hover {
+background-color: #A7B49E;
+}
+footer {
+background-color: #A7B49E;
+color: #FAF9F7;
+text-align: center;
+padding: 1.5rem 1rem;
+margin-top: 3rem;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Melted Essence</h1>
+<p>Crafted Scents. Grounded Moments.</p>
+</header>
+
+
+<nav>
+<a href="#home">Home</a>
+<a href="#shop">Shop</a>
+<a href="#about">About</a>
+<a href="#custom">Custom Orders</a>
+<a href="#contact">Contact</a>
+</nav>
+
+
+<section id="home">
+<h2>Welcome</h2>
+<p>Welcome to <strong>Melted Essence</strong>, where each soy candle and wax melt is hand-poured with intention. Every scent is inspired by nature — earthy, warm, and comforting — designed to turn your daily routine into a mindful ritual.</p>
+<a href="#shop" class="button">Explore the Collection</a>
+<a href="#custom" class="button">Create a Custom Blend</a>
+</section>
+
+
+<section id="shop">
+<h2>Shop</h2>
+<p>Explore our collection of handmade soy candles and wax melts — each one thoughtfully crafted to bring grounded calm and subtle luxury to your space.</p>
+<ul>
+<li>Sage & Driftwood</li>
+<li>Amber Woods</li>
+<li>Vanilla Birch</li>
+</ul>
+</section>
+
+
+<section id="about">
+<h2>About</h2>
+<p>Melted Essence began from a love of cozy spaces and the belief that scent can anchor us in the present moment. Every candle is a quiet reminder to slow down, light up, and find peace in the simple things.</p>
+<p>Each batch is hand-poured with care, using eco-friendly soy wax, lead-free wicks, and phthalate-free fragrance oils. Our goal is to craft scents that ground your soul and elevate your home.</p>
+</section>
+
+
+<section id="custom">
+<h2>Custom Orders</h2>
+<p>Want a scent that’s uniquely yours? We offer custom candle and wax melt orders for weddings, gifts, and personal blends.</p>
+<form>
+<label>Name:</label><br />
+<input type="text" name="name" required /><br /><br />
+<label>Email:</label><br />
+<input type="email" name="email" required /><br /><br />
+<label>Desired scent profile:</label><br />
+<input type="text" name="scent" placeholder="Fresh, floral, woody, sweet..." /><br /><br />
+<label>Quantity or occasion:</label><br />
+<input type="text" name="quantity" /><br /><br />
+<label>Message:</label><br />
+<textarea name="message" rows="4"></textarea><br /><br />
+<button type="submit" class="button">Submit Request</button>
+</form>
+</section>
+
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Have a question, suggestion, or wholesale inquiry? We’d love to hear from you.</p>
+<p><strong>Email:</strong> meltedessence@gmail.com</p>
+<p><strong>Location:</strong> Based in Your City, State</p>
+</section>
+
+
+<footer>
+<p>&copy; 2025 Melted Essence | Crafted Scents. Grounded Moments.</p>
+</footer>
+</body>
+</html>
